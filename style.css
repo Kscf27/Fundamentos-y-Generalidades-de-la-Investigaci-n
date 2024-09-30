@@ -16,10 +16,34 @@ header {
   h1 {
     margin-top: 20px;
   }
+
+  h2 {
+    color: #333;
+}
   #map {
     height: 600px;
     width: 80%;
     margin: 20px auto;
     border: 2px solid #333;
   }
-  
+  .Gmap{
+    height: 600px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #333;
+  }
+  section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #50b3a2;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
