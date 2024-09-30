@@ -28,3 +28,33 @@ conflictos.bindPopup("<b>Conflictos Territoriales</b><br>Deterioro de vías y es
 // Configuración Territorial Comunitaria
 var configuracion = L.marker([4.5871, -74.1013]).addTo(map);
 configuracion.bindPopup("<b>Configuración Comunitaria</b><br>Áreas residenciales consolidadas en Diana Turbay").openPopup();
+
+// --- Nuevos puntos agregados según las problemáticas y actividades económicas ---
+
+// Deterioro de Infraestructura Vial - San Carlos
+var deterioroVial = L.marker([4.5772, -74.0987]).addTo(map);
+deterioroVial.bindPopup("<b>Deterioro de Infraestructura Vial</b><br>Problemas de movilidad en San Carlos").openPopup();
+
+// Alta Densidad Poblacional - Quiroga
+var altaDensidad = L.marker([4.5895, -74.1107]).addTo(map);
+altaDensidad.bindPopup("<b>Alta Densidad Poblacional</b><br>Área densamente poblada en Quiroga").openPopup();
+
+// Inseguridad - Estadio Olaya Herrera
+var inseguridad = L.marker([4.5819, -74.1215]).addTo(map);
+inseguridad.bindPopup("<b>Inseguridad</b><br>Altos índices de criminalidad cerca del Estadio Olaya Herrera").openPopup();
+
+// Desempleo y Economía Informal - San Jorge
+var desempleo = L.marker([4.5900, -74.1012]).addTo(map);
+desempleo.bindPopup("<b>Desempleo y Economía Informal</b><br>Alta tasa de desempleo en San Jorge").openPopup();
+
+// Zonas de Concentración Económica - Olaya Herrera
+var comercioOlaya = L.marker([4.5985, -74.1201]).addTo(map);
+comercioOlaya.bindPopup("<b>Comercio Local</b><br>Microempresas y comercio local en Olaya Herrera").openPopup();
+
+// Industria - Quiroga
+var industriaQuiroga = L.marker([4.5840, -74.1120]).addTo(map);
+industriaQuiroga.bindPopup("<b>Industria Manufacturera</b><br>Sector industrial en Quiroga").openPopup();
+
+// Emprendimiento Tecnológico - Marruecos
+var emprendimientoMarruecos = L.marker([4.6045, -74.0917]).addTo(map);
+emprendimientoMarruecos.bindPopup("<b>Emprendimiento Tecnológico</b><br>Oportunidades de emprendimiento en Marruecos").openPopup();
