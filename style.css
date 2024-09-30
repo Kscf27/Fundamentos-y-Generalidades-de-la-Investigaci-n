@@ -5,7 +5,9 @@ body {
   padding: 0;
   background-color: #f4f4f4;
 }
-
+div.googlemaps{
+  width: 25px;
+}
 header {
   background: #50b3a2;
   color: #fff;
@@ -26,11 +28,18 @@ header {
     margin: 20px auto;
     border: 2px solid #333;
   }
-  .Gmap{
+  .gmap{
     height: 600px;
     width: 80%;
     margin: 20px auto;
     border: 2px solid #333;
+  }
+  iframe{
+    height: 600px;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #333;
+    display: block;
   }
   section {
     margin: 20px;
